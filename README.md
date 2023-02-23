@@ -1,4 +1,4 @@
-My Vue3 & FastAPI Template
+Gallery WebApp Template
 ==========================
 
-I don't know if I'll use it or not.
+A template that I myself can use universally (as much as possible).
