@@ -13,4 +13,4 @@ app.add_middleware(
 
 @app.get("/")
 def get_root():
-    return "Hello! This is FatAPI!"
+    return "Hello! This is FastAPI!"
