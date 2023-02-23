@@ -15,6 +15,7 @@ services:
     build: ./fe
     volumes:
       - ./fe/app:/app
+      - fe_node_modules:/app/node_modules
     ports:
       - "3000:3000"
     networks:
@@ -23,3 +24,6 @@ services:
 networks:
   mynet:
     driver: bridge
+
+volumes:
+  fe_node_modules:
